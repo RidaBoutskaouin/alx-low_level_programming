@@ -13,7 +13,7 @@ for (mychar = '0'; mychar <= '9'; mychar++)
 {
 putchar(mychar);
 }
-for (mychar = 'a'; mychar <= 'e'; mychar++)
+for (mychar = 'a'; mychar <= 'f'; mychar++)
 {
 putchar(mychar);
 }
