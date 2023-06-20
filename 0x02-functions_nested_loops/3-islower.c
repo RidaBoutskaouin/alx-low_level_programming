@@ -3,7 +3,7 @@
 /**
  * _islower - checks for lowercase character.
  *
- * the parametr @c is int
+ * @c: The character to check
  *
  * Return: Always 0 (Success)
  *
