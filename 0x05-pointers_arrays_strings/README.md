@@ -1,0 +1,1 @@
+This directory contains C programming language exercises focused on pointers, arrays, and strings. These concepts are fundamental to understanding and manipulating data in C, and mastering them will greatly enhance your programming skills.
