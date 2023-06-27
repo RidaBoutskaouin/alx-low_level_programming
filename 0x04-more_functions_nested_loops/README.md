@@ -27,3 +27,10 @@ Below are the files included in this directory along with their descriptions:
 1. Clone this repository to your local machine.
 2. Navigate to the directory `0x04-more_functions_nested_loops`.
 3. Compile the desired C file along with the necessary header files using the provided Makefile. For example, to compile `0-isupper.c`, use the command:
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 <filename.c> -o <output_file>
+Replace `<filename.c>` with the name of the C file you want to compile (e.g., `0-isupper.c`) and `<output_file>` with the desired name for the output executable (e.g., `0-isupper`).
+4. Run the compiled program. For example, if you compiled `0-isupper.c` and named the output executable `0-isupper`, use the following command:
+./0-isupper
+
+## Author
+- [Rida Boutskaouin](https://github.com/RidaBoutskaouin)
