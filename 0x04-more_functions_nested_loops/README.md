@@ -21,7 +21,7 @@ Below are the files included in this directory along with their descriptions:
 
 ## Requirements
 - All programs are written in C.
-- The code is compiled using `gcc 4.8.4` with the options `-Wall`, `-Werror`, `-Wextra`, `-std` and `-pedantic`.
+- The code is compiled using `gcc` with the options `-Wall`, `-Werror`, `-Wextra`, `-std` and `-pedantic`.
 
 ## Usage
 1. Clone this repository to your local machine.
