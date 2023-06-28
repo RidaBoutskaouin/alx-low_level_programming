@@ -30,8 +30,8 @@ Below are the files included in this directory along with their descriptions:
 `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 <filename.c> -o <output_file>`
 
 Replace `<filename.c>` with the name of the C file you want to compile (e.g., `0-isupper.c`) and `<output_file>` with the desired name for the output executable (e.g., `0-isupper`).
-4. Run the compiled program. For example, if you compiled `0-isupper.c` and named the output executable `0-isupper`, use the following command:\n
-./0-isupper
+4. Run the compiled program. For example, if you compiled `0-isupper.c` and named the output executable `0-isupper`, use the following command:\
+`./0-isupper`
 
 ## Author
 - [Rida Boutskaouin](https://github.com/RidaBoutskaouin)
