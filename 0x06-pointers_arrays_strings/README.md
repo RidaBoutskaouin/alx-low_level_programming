@@ -1,0 +1,1 @@
+This repository contains a collection of C programs and exercises related to pointers, arrays, and strings. The goal of this repository is to provide a hands-on learning experience and improve your understanding of these fundamental concepts in C programming.
