@@ -4,6 +4,7 @@
  * _strncat - appends not more than n characters from src to dest
  * @dest: the destination string
  * @src: The source string
+ * @n: number of characters to append
  * Return: pointer to the resulting string dest
  */
 
