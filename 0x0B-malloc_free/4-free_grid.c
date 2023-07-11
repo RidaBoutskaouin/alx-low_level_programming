@@ -5,7 +5,7 @@
  *@heigth: Heigth of the grid
  */
 
-void free_grid(char **grid, int heigth)
+void free_grid(int **grid, int heigth)
 {
 	int i = 0;
 
