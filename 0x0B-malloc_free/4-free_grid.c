@@ -1,27 +1,22 @@
-#include "main.h"
-#include <stdlib.h>
-
+#include "holberton.h"
 /**
-  * free_grid - function that frees a 2 dimensional grid
-  * @grid: ...
-  * @height: ...
-  *
-  * Return: ...
-  */
-void free_grid(int **grid, int height)
+ *free_grid - Free the allocated memory used in the last excercise
+ *@grid: pointer to grid
+ *@heigth: Heigth of the grid
+ */
+
+void free_grid(char **grid, int heigth)
 {
-	int i, j;
+	int i = 0;
 
-	for (i = 0; i < height; i++)
+	if (grid == NULL)
 	{
-		if (grid[i] == NULL)
-		{
-			for (j = i; j >= 0; j--)
-			{
-				free(grid[j]);
-			}
+		return;
+	}
 
-			free(grid);
-		}
+	while (i < heigth)
+	{
+		free(grid[i]);
+		i++;
 	}
 }
