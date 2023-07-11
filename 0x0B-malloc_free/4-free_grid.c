@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  *free_grid - Free the allocated memory used in the last excercise
  *@grid: pointer to grid
