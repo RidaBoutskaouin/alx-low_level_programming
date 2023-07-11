@@ -1,22 +1,21 @@
+#include <stdlib.h>
 #include "main.h"
+
 /**
- *free_grid - Free the allocated memory used in the last excercise
- *@grid: pointer to grid
- *@heigth: Heigth of the grid
+ * free_grid - frees the memory allocate for the grid
+ * created by alloc_grid()
+ * @grid: grid to free
+ * @height: height of the grid
  */
-
-void free_grid(int **grid, int heigth)
+void free_grid(int **grid, int height)
 {
-	int i = 0;
+	int i;
 
-	if (grid == NULL)
-	{
-		return;
-	}
+	if (grid == NULL || height == 0)
+	return;
 
-	while (i < heigth)
-	{
-		free(grid[i]);
-		i++;
-	}
+	for (i = 0; i < height; i++)
+	free(grid[i]);
+
+	free(grid);
 }
