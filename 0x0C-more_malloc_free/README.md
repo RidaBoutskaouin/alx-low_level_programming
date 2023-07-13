@@ -1,1 +1,1 @@
-more malloc() && free() functions in C programming language.
+more malloc() && free() && exit() functions in C programming language.

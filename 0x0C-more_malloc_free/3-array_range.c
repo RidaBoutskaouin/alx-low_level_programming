@@ -4,7 +4,7 @@
 
 
 /**
- * array_range - makes an array with numbers
+ * array_range - makes an array with int numbers 
  * @min: start number
  * @max: end number
  *
