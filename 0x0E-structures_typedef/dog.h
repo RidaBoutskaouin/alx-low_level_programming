@@ -1,17 +1,18 @@
-#include "dog.h"
-#include <stdio.h>
+#ifndef DOG_H
+#define DOG_H
 
 /**
- * main - check the code
+ * struct dog - a dog's basic info
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog's owner
  *
- * Return: Always 0.
+ * Description: description
  */
-int main(void) {
-	struct dog my_dog;
+struct dog {
+	char *name;
+	float age;
+	char *owner;
+};
 
-	my_dog.name = "Poppy";
-	my_dog.age = 3.5;
-	my_dog.owner = "Bob";
-	printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
-	return (0);
-}
+#endif /* DOG_H */
